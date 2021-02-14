@@ -9,7 +9,7 @@ int main(void)
     typedef char *string;
     
     string s  = "emma";
-    string t = malloc(strlen(s) + 1);
+    string t = malloc(strlen(s) + 1); // 메로리 할당
     
     strcpy(t, s);
     /* for(int i = 0, n = strlen(s); i < n + 1; i++)
