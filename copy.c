@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdlib.h>
 
+
 int main(void)
 {
     
@@ -17,11 +18,11 @@ int main(void)
         t[i] = s[i];
     }
     */
-    
     t[0] = toupper(t[0]);
     
     printf("%s\n", s);
     printf("%s\n", t);
 
+    free(t); // 메모리 할당 해제
 }
 
